@@ -1,1 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+	task 1-2	
+	</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+	 *{
+	 	margin: 0px;
+	 	padding: 0px;
+	 }
+	header nav{
+		padding: 10px 10px 10px 40px;
+		background-color: #333;
+	    overflow: hidden;
+	}
+	header nav figure{
+		float: left;
+	}
+	header nav ul{
+		float: right;
+		text-align: center;
 
+	}
+    header nav ul li{
+    	float: left;
+    	margin:10px;
+    	
+    }
+     header nav ul li a {
+     	color: #fff;
+     	text-decoration: none;
+     	font-size: 12px;
+     }
+   .test{
+     	color: #eee; 
+     }
+     #main{
+     	padding: 20px;
+	    background-color: #dedede;
+     }
+    article,aside{
+		background-color: #fff;
+		padding:30px 20px;
+		margin-bottom: 20px;
+		box-shadow: 3px 3px 3px #999;
+	}
+	article h2{
+		font-size: 1.5em;
+	}
+	article h3{
+		font-size: 1.3em;
+		color: #777;
+	}
+	article time{
+		color: #999;
+	}
+	.content p{
+		text-indent: 2em;
+		font-size: 14px;
+	}
+	article figure img{
+		width: 120px;height: 140px; border: 1px #ccc solid; box-sizing: border-box; padding: 0 10px 10px 10px; text-align: center; margin-bottom: 20px;
+	}
+	.content ul li{
+		list-style-type:none;
+	}
+	.content ol{
+		margin-left: 5%;
+		font-size: 1em;
+		font-weight: 3px;
+	}
+	article table{
+		width: 100%;
+		border-collapse: collapse;
+	}
+	article table thead th{
+		border-color: #fff;
+		background-color: #333;
+		padding: 5px;
+	}
+	article table tbody td{
+		padding: 5px;
+	}
+	article table tfoot td{
+		background: #ccc; font-weight: bold
+	}
+	aside legend{border-left: 3px #ccc solid; line-height: 2em; padding-left: 10px; margin: 0; font-size: 1.6em;}
+    aside label{
+    	width: 30%; display: inline-block; text-align: right;
+        margin-right: 10px;margin-top: 10px;
+    }
+    aside form input{
+     padding-left: 10px; margin-top: 10px;height: 17px;
+    }
+    .test3{
+    	 padding-left: 10px; text-align: right;
+    }
+    .test5{
+         background: rgb(28, 99, 221); line-height: 3em; border-radius: 5px; border: 0; outline: none; color: #fff; width: 100%;margin-top: 20px;
+    }
+     aside textarea{height: 50px; width: 400px;}
+	</style>
+
+</head> 
+<body>
+<header>
+	<nav>
+		<figure>
+			<figcaption></figcaption>
+			<img src="img/1.png" alt="百度">
+		</figure>
+		<ul>
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#" >导航链接三</a></li>
+			<li><a href="#" class="test">导航链接四</a></li>
+		</ul>		
+	</nav>
+</header>
+<div id=main>
+<article> 
+   	<hgroup>
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>	
+	</hgroup>
+	   <time>文章作者文章发表时间</time>
+
+   <div class="content">
+   	    <p>这是一个这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br/>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这有一个连接链接到http://ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+   	  <figure>
+   		<img src="img/1.jpg">
+     	</figure>
+        	<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br/>这是一个很长的段落，<a href="http://ife.baidu.com">这有一个连接链接到http://ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+   </div>
+</article>
+<article >
+	 <header>
+   	<hgroup>
+		<h1>文章一级标题</h1>
+		<h2>文章二级标题</h2>
+	</hgroup>
+	<time>文章作者文章发表时间</time>
+   </header>
+   <div class="content">
+   <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。还行了<br/> 这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这有一个连接链接到http://ife.baidu.com</a>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+   <figure>
+      <figcaption></figcaption>
+      <img src="img/1.jpg">
+   </figure>
+   <ul>
+   	<li>列表项目1</li>
+   	<li>列表项目1</li>
+   	<li>列表项目1</li>
+   </ul>
+   </div>
+</article>
+<article>
+	<h2>图片</h1>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="img/1.jpg">
+	</figure>
+</article>
+<article>
+	<header>
+	 <hgroup>
+		<h1>最后一篇文章的一级标题</h1>
+		<h3>二级标题</h3>
+	</hgroup>
+	<time>文章作者文章发表时间</time>
+	</header>
+	<div class="content">
+		<ol start="1">
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+	</div>
+	<caption>下面这是一个表格</caption>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>表头</th>
+				<th>表头</th> 
+				<th>表头</th>  
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>表内单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td><b>总计</b></td>
+				<td colspan="2"><b>10000</b></td>
+			</tr>
+		</tfoot>
+	</table>
+  </article>
+
+<aside>
+	<fieldset>
+		<legend>这里以后是一个侧栏，这是侧栏的标题</legend>
+		<form method="get" action="">
+		<label>请输入邮箱地址 </label>
+		<input type="text" value="这是一个文本框"><br/>
+		<label class="test3">邮箱地址请按要求格式输入</label><br/>
+		<label>请输入密码 </label>
+		<input type="password" value="这是一个文本框"><br/>
+		<label>请重复输入密码 </label>
+		<input type="password" value="这是一个文本框"><br/>
+		<label class="test3">密码请为6-16位数字</label><br/>
+		<label>性别</label>
+		<input type="radio" name="rdoGender" value="1">男
+	    <input type="radio" name="rdoGender" value="2">女 
+	    <br/>
+		<label>城市 </label>
+		<select id="selCity">
+                            <option value="bj">北京</option>
+                            <option value="sh">上海</option>
+         </select>
+         <br/>
+		</label>
+		<label>爱好</label>
+		  <input type="checkbox" name="sport" value="sport">运动
+		  <input type="checkbox" name="art" value="art">艺术
+		  <input type="checkbox" name="science" value="science">科学
+		  <br>
+		<label>个人描述</label>
+		<textarea name="" id="" cols="100" rows="5" >这是一个多行输入框，输入您的个人描述</textarea>
+		<br/>
+		
+	</form>
+	
+			<input class="test5" type="submit" value="确认提交">
+		
+	</fieldset>
+</aside>
+</div>
+
+
+</body>
+</html>
